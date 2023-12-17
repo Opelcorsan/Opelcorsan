@@ -13,3 +13,8 @@ You can click the Preview link to take a look at your changes.
 'Wayne'
 >>> data.get("adresse", "Adresse inconnue")
 'Adresse inconnue
+>>> data = {"name": "Wayne", "age": 45}
+>>> data.get("name")
+'Wayne'
+>>> data.get("adresse", "Adresse inconnue")
+'Adresse inconnue
